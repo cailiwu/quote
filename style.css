@@ -1,0 +1,51 @@
+body{
+    margin: 0%;
+    height: 100%;
+    position: relative;
+}
+
+.bg{
+    color: #ffffff;
+    min-height: 100vh;
+}
+.bg-puple{
+    background-color: blueviolet;
+}
+.bg-blue{
+    background-color: blue;
+}
+.bg-green{
+    background-color: green;
+}
+.content{
+    font-family: 'Work Sans', sans-serif;
+    height: 400px;
+}
+.quote-content{
+    font-size: 40px;
+    padding:60px 50px;
+}
+.quote-creator{
+    position: absolute;
+    right: 120px;
+}
+.btn{
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border: solid 1px #ffffff;
+    border-radius:3px;
+    color: #ffffff;
+    background: transparent;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -ms-border-radius:3px;
+    -o-border-radius:3px;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+}
